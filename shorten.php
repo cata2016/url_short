@@ -37,6 +37,6 @@ if($long_url != NULL) {
 }
 
 
-
+// Comment pentru github
 
 ?>
