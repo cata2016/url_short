@@ -20,7 +20,7 @@ if(isset($_GET['id'])){
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Generator</title>
+	<title>Short URL Generator</title>
 	<link rel="stylesheet" href="css.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
