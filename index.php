@@ -8,15 +8,12 @@ if(isset($_GET['id'])){
   $select = "SELECT url_lung, url_scurt FROM main_table where url_scurt='". $short_url."'";
 
   $long_url = $conn->query($select)->fetch_object()->url_lung;
-  
 
   header("Location: ".$long_url);
 
 } else {
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html>
@@ -27,7 +24,6 @@ if(isset($_GET['id'])){
 	<link rel="stylesheet" href="css.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-  
   <script>
 
   $(document).ready(function(){
